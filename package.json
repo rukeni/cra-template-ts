@@ -74,7 +74,7 @@
     "lint": "yarn run eslint src",
     "lint:fix": "yarn run eslint --fix src",
     "lint:css": "stylelint src/**/*.css",
-    "generate": "plop --plopfile internals/generators/plopfile.ts",
+    "new": "plop --plopfile internals/generators/plopfile.ts",
     "cleanAndSetup": "ts-node ./internals/scripts/clean.ts",
     "prettify": "prettier --write",
     "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js"
